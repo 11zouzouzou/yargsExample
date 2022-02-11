@@ -1,0 +1,11 @@
+{
+  "name": "yargs-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:11zouzouzou/yargsExample.git",
+  "author": "zouzouzou11 <1096174991@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
+}
