@@ -6,9 +6,18 @@
   "author": "zouzouzou11 <1096174991@qq.com>",
   "license": "MIT",
   "scripts": {
-    "y-help":"node yargs.js --help",
-    "y-arg":"node yargs.js aaaa --new thing --old='stuff'"
+    "y-help": "node yargs.js --help",
+    "y-arg": "node yargs.js aaaa --new thing --old='stuff'",
+    "y-line-help":"node ./examples/LineCount.js --help",
+    "line-test":"node ./examples/LineCount.js count -f package.json"
   },
+  "bin": {
+    "line-count": "./examples/LineCount.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "cli"
+  ],
   "dependencies": {
     "yargs": "^17.3.1"
   }
