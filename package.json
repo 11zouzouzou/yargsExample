@@ -5,6 +5,10 @@
   "repository": "git@github.com:11zouzouzou/yargsExample.git",
   "author": "zouzouzou11 <1096174991@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "y-help":"node yargs.js --help",
+    "y-arg":"node yargs.js aaaa --new thing --old='stuff'"
+  },
   "dependencies": {
     "yargs": "^17.3.1"
   }
