@@ -1,6 +1,6 @@
 {
   "name": "yargs-example",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "git@github.com:11zouzouzou/yargsExample.git",
   "author": "zouzouzou11 <1096174991@qq.com>",
@@ -8,8 +8,8 @@
   "scripts": {
     "y-help": "node yargs.js --help",
     "y-arg": "node yargs.js aaaa --new thing --old='stuff'",
-    "y-line-help":"node ./examples/LineCount.js --help",
-    "line-test":"node ./examples/LineCount.js count -f package.json"
+    "y-line-help": "node ./examples/LineCount.js --help",
+    "line-test": "node ./examples/LineCount.js count -f package.json"
   },
   "bin": {
     "line-count": "./examples/LineCount.js"
@@ -19,6 +19,12 @@
     "cli"
   ],
   "dependencies": {
-    "yargs": "^17.3.1"
-  }
+    "yargs": "^17.3.1",
+    "yargs-example": "^1.0.1"
+  },
+  "files": [
+    "examples/**/*",
+    "README.md",
+    "yargs.js"
+  ]
 }

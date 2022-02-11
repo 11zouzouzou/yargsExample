@@ -90,6 +90,14 @@ y18n@^5.0.5:
   resolved "https://registry.npmmirror.com/y18n/-/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
   integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
 
+yargs-example@^1.0.0, yargs-example@^1.0.1:
+  version "1.0.1"
+  resolved "http://47.114.144.162:4874/yargs-example/-/yargs-example-1.0.1.tgz#87f8840a6b8b621af1e3ca63d31707d0601ea12f"
+  integrity sha512-26Y0GplthAXaOB7xxtnfJs6OYnEKD2VFTrnEzZhCapq0n58VS5suojWIcbQJFp78jBstEbO0T+LORwg13P5mAg==
+  dependencies:
+    yargs "^17.3.1"
+    yargs-example "^1.0.0"
+
 yargs-parser@^21.0.0:
   version "21.0.0"
   resolved "https://registry.npmmirror.com/yargs-parser/-/yargs-parser-21.0.0.tgz#a485d3966be4317426dd56bdb6a30131b281dc55"
