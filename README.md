@@ -10,3 +10,5 @@ use yargs example
 > 更多例子 [yargs](https://github.com/yargs/yargs/blob/main/docs/examples.md)
 
 # node_moudules中yarn.lock无效
+
+# TODO add npm auto publish example
